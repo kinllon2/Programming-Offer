@@ -1,0 +1,50 @@
+﻿  source.cpp
+e:\software\vs\vc\tools\msvc\14.12.25827\include\xutility(1017): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+  e:\software\vs\vc\tools\msvc\14.12.25827\include\xutility(1014): note: 参见对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<_Pr&,__int64&,__int64&>(std::greater<int>&,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(<expr>)”的引用
+          with
+          [
+              _Pr=std::greater<int>,
+              _Ty1=__int64 &,
+              _Ty2=__int64 &
+          ]
+  e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3178): note: 参见对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=__int64 *,
+              _Pr=std::greater<int>
+          ]
+  e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3212): note: 参见对正在编译的函数 模板 实例化“void std::_Sort_unchecked<__int64*,int,_Fn>(_RanIt,_RanIt,_Diff,_Pr)”的引用
+          with
+          [
+              _Fn=std::greater<int>,
+              _RanIt=__int64 *,
+              _Diff=int,
+              _Pr=std::greater<int>
+          ]
+  e:\2019.1.30\programming-offer\jianzhi001\question001\question001\source.cpp(25): note: 参见对正在编译的函数 模板 实例化“void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::greater<int>>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _Ty=__int64,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<__int64>>>,
+              _Pr=std::greater<int>
+          ]
+e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3084): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3091): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3106): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3126): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+e:\software\vs\vc\tools\msvc\14.12.25827\include\xutility(1019): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+  e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3083): note: 参见对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<_Pr&,__int64&,__int64&>(std::greater<int>&,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(false)”的引用
+          with
+          [
+              _Pr=std::greater<int>,
+              _Ty1=__int64 &,
+              _Ty2=__int64 &
+          ]
+  e:\software\vs\vc\tools\msvc\14.12.25827\include\algorithm(3178): note: 参见对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=__int64 *,
+              _Pr=std::greater<int>
+          ]
+e:\software\vs\vc\tools\msvc\14.12.25827\include\xutility(1020): warning C4244: “参数”: 从“__int64”转换到“const int”，可能丢失数据
+  question001.vcxproj -> E:\2019.1.30\Programming-Offer\jianzhi001\question001\Debug\question001.exe
