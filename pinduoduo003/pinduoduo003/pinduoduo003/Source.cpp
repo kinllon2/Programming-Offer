@@ -20,7 +20,7 @@ int main()
 	int count = 0;
 	sort(h, h + n);
 	sort(w, w + m);
-	int i, j = 0;
+	int i=0, j = 0;
 	while(i<n&&j<m)
 	{
 		if (h[i] <= w[j])
