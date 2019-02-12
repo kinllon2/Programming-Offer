@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pinduoduo003", "pinduoduo003\pinduoduo003.vcxproj", "{46B1AA75-4A68-454C-B77F-4EB1FEF20507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Debug|x64.ActiveCfg = Debug|x64
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Debug|x64.Build.0 = Debug|x64
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Debug|x86.ActiveCfg = Debug|Win32
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Debug|x86.Build.0 = Debug|Win32
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Release|x64.ActiveCfg = Release|x64
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Release|x64.Build.0 = Release|x64
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Release|x86.ActiveCfg = Release|Win32
+		{46B1AA75-4A68-454C-B77F-4EB1FEF20507}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E238DC-7D60-4B51-BF37-275599340332}
+	EndGlobalSection
+EndGlobal
