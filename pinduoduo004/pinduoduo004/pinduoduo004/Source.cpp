@@ -10,9 +10,32 @@ char g[102][102];
 int sx, sy, fx, fy;
 
 
+class Point
+{
+public:
+	int x, y, key, step;
+	Point(int xx, int yy, int k, int s)
+	{
+		x = xx;
+		y = yy;
+		key = k;
+		step = s;
+	}
+};
+
+
+
 int bfs(vector<vector<char>>& a, int startx, int starty)
 {
-	
+	int res = 0;
+	queue<Point> que;
+	que.push(Point(startx, starty, 0, 0));
+	vector<vector<int>> dir{ { -1,0 },{ 1,0 },{ 0,1 },{ 0,-1 } };//ÒÆ¶¯·½Ê½
+	int visit[105][105][1200] = { 0 };
+
+
+
+
 }
 
 
